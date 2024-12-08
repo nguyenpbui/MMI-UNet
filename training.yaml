@@ -1,0 +1,31 @@
+TRAIN:
+  train_batch_size: 32
+  lr: 0.0003
+
+  valid_batch_size: 8
+
+  image_size: [224,224]
+
+  min_epochs: 20
+  max_epochs: 100
+  patience: 20
+
+  device: 1
+
+  model_save_path: ./save_model/mosmed
+  model_save_filename: mmiunet # medseg mmiunet_gs mmiunext_s mmiunet
+
+MODEL:
+  bert_type: microsoft/BiomedVLP-CXR-BERT-specialized
+  vision_type: facebook/convnext-tiny-224
+  project_dim: 768
+
+DATA: # QaTa-COV19-v2 MosMedDataPlus
+  train_csv_path: ./data/MosMedDataPlus/prompt/train.csv
+  train_root_path: ./data/MosMedDataPlus/Train
+
+  valid_csv_path: ./data/MosMedDataPlus/prompt/val.csv
+  valid_root_path: ./data/MosMedDataPlus/Val
+
+  test_csv_path: ./data/MosMedDataPlus/prompt/test.csv
+  test_root_path: ./data/MosMedDataPlus/Test
