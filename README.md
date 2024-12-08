@@ -7,7 +7,7 @@ MICCAI 2023 Conference paper: [https://link.springer.com/chapter/10.1007/978-3-0
 
 ## Framework
 
-![Framework](./mmi-unet.png)
+![Framework](./mmi-unet.PNG)
 
 ## Requirements
 1. Environment  
