@@ -1,4 +1,4 @@
-# Pytorch implmentation of MMI-UNet - MICCAI2024
+# Pytorch implementation of MMI-UNet - MICCAI2024
 **Visual-Textual Matching Attention for Lesion Segmentation in Chest Images**
 
 [MICCAI 2024 - Early Acceptance-Top 11%](https://link.springer.com/chapter/10.1007/978-3-031-72114-4_67)
