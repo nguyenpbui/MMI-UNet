@@ -26,7 +26,7 @@
    CXR-BERT-specialized see: https://huggingface.co/microsoft/BiomedVLP-CXR-BERT-specialized/tree/main  
    ConvNeXt-tiny see: https://huggingface.co/facebook/convnext-tiny-224/tree/main
 
-   Download the file 'pytorch_model.bin' to './lib/BiomedVLP-CXR-BERT-specialized/' and './lib/convnext-tiny-224'
+   Download the file ``pytorch_model.bin`` to ```./lib/BiomedVLP-CXR-BERT-specialized/``` and ```./lib/convnext-tiny-224```
 
    Or just use these models online:
    ```
@@ -60,6 +60,7 @@ To train a model, please execute:
 To evaluate a model, please excute:  
 ```python evaluate.py```
 
+We release our checkpoints at this [Google Drive link](https://drive.google.com/drive/u/1/folders/1r_8vSw1SRZXlR6O5XOwBMfbwVvFFEmlw)
 ## Citation
 
 If you find our work useful in your research, please consider citing:
