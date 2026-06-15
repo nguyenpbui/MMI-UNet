@@ -1,7 +1,10 @@
-# Pytorch implementation of MMI-UNet - MICCAI2024
-**Visual-Textual Matching Attention for Lesion Segmentation in Chest Images**
+# Official implementation of **MMI-UNet** - MICCAI2024
 
-[MICCAI 2024 - Early Acceptance-Top 11%](https://link.springer.com/chapter/10.1007/978-3-031-72114-4_67)
+**Visual-Textual Matching Attention for Lesion Segmentation in Chest Images**
+[ [Early Acceptance - Top 11%](https://link.springer.com/chapter/10.1007/978-3-031-72114-4_67) ]
+
+Lesion segmentation in chest images is crucial for AI-assisted diagnostic systems of pulmonary conditions. 
+We introduce a Multi-Modal Input UNet model, namely MMI-UNet, which utilizes visual-textual matching (VTM) features for infected areas segmentation in chest X-ray images. These VTM features, which contain visual features that are relevant to the text description, are created by a combination of self-attention and cross-attention mechanisms in a novel Image-Text Matching (ITM) module integrated into the encoder.
 
 ## Framework
 
